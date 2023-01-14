@@ -1,0 +1,58 @@
+h1 {
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: 100;
+text-align: center; 
+font-size: 50x;}
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.771),rgba(0, 0, 0, 0.771)),url(../img/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: scroll;
+    }
+button {
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    background-color: hsl(0, 0%, 26%, 0.134);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    }
+   .a:hover {background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url(../img/mochi.jpeg); opacity: 70%;}
+   .b:hover {background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url(../img/pizza.jpeg); opacity: 70%;}
+   .c:hover {background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url(../img/oatmeal.jpeg); opacity: 70%;}
+    
+.a {background-image: url(../img/mochi.jpeg);}
+.b {background-image: url(../img/pizza.jpeg);}
+.c {background-image: url(../img/oatmeal.jpeg);}
+
+ul {
+    list-style: none; /* Remove default bullets */
+   }
+   a:link {
+    color: black;
+    text-decoration: none;
+    border: cyan;
+    text-align: center;
+    background-color: white;
+  
+   }
+   a:visited {color: black;
+    text-decoration: none;
+    border: cyan;
+    text-align: center;
+    background-color: white;
+}
+p {color: aliceblue;}
+h1 {color: aliceblue;}
+h2 {color: aliceblue;}
+h3 {color: aliceblue;}
+li {color: aliceblue;}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
